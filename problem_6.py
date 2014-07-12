@@ -3,9 +3,9 @@
 sum_nat = 0
 sum_squ = 0
 
-for i in range (1, 101):
-	sum_nat += i
-	sum_squ += i**2
+for n in range (1, 101):
+	sum_nat += n
+	sum_squ += n**2
 
 diff = sum_nat**2 - sum_squ
 
